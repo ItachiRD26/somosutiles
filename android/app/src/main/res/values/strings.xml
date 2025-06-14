@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">Utiles Escolar</string>
-    <string name="title_activity_main">Utiles Escolar</string>
+    <string name="app_name">Utiles Escolares</string>
+    <string name="title_activity_main">Utiles Escolares</string>
     <string name="package_name">com.jeterdev.utiles</string>
     <string name="custom_url_scheme">com.jeterdev.utiles</string>
 </resources>

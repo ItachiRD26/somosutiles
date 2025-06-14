@@ -2,7 +2,7 @@ import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'com.jeterdev.utiles',
-  appName: 'Utiles Escolar',
+  appName: 'Utiles Escolares',
   webDir: 'out',
 };
 
