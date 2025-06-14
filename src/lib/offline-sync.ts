@@ -54,6 +54,7 @@ export async function sincronizarRegistrosOffline() {
   if (registrosPendientes.length === 0) return;
 
   for (const registro of registrosPendientes) {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const { _id: _, ...registroSinId } = registro;
     try {
       await push(ref(db, "children"), registroSinId);
