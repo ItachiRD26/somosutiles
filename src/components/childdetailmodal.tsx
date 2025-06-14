@@ -92,7 +92,7 @@ export default function ChildDetailModal({ child, onClose, editable = false, id 
               <User className="h-6 w-6 text-white" />
             </div>
             <div>
-              <CardTitle className="text-xl text-slate-800">Detalles del Beneficiario</CardTitle>
+              <CardTitle className="text-xl text-slate-800">Detalles del niño</CardTitle>
               <p className="text-slate-600 text-sm">
                 {editable ? "Edita la información del niño" : "Información del niño"}
               </p>

@@ -150,20 +150,18 @@ export default function LoginForm() {
       </Button>
 
       <div className="text-center">
-        <p className="text-sm text-slate-600">
-          ¿Problemas para acceder?{" "}
-          <button
-            type="button"
-            className="text-blue-600 hover:text-blue-700 font-medium hover:underline"
-            onClick={() => {
-              // Aquí podrías agregar lógica para recuperar contraseña
-              alert("Contacta al administrador para recuperar tu contraseña")
-            }}
-          >
-            Contacta al administrador
-          </button>
-        </p>
-      </div>
-    </form>
+      <p className="text-sm text-slate-600">
+      ¿Problemas para acceder?{" "}
+    <a
+      href="https://api.whatsapp.com/send/?phone=18099616343"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-blue-600 hover:text-blue-700 font-medium hover:underline"
+    >
+      Contacta al administrador
+    </a>
+  </p>
+  </div>
+</form>
   )
 }

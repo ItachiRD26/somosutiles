@@ -49,7 +49,7 @@ export default function ExportModal({ onClose }: ExportModalProps) {
   const exportarPDF = (datos: Registro[]) => {
     const doc = new jsPDF()
     doc.setFontSize(18)
-    doc.text("Listado de Beneficiarios", 14, 20)
+    doc.text("Listado de los niños", 14, 20)
     doc.setFontSize(12)
     doc.text(`Generado el: ${new Date().toLocaleDateString()}`, 14, 30)
     doc.text(`Total de registros: ${datos.length}`, 14, 38)

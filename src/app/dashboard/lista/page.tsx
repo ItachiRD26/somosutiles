@@ -119,7 +119,7 @@ useEffect(() => {
   return (
     <div className="space-y-6">
       <div className="space-y-2">
-        <h1 className="text-3xl font-bold text-slate-800">Lista de Beneficiarios</h1>
+        <h1 className="text-3xl font-bold text-slate-800">Lista de los niños</h1>
         <p className="text-slate-600">Gestiona y consulta la información de todos los niños registrados</p>
       </div>
 

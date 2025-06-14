@@ -15,7 +15,7 @@ export default function Home() {
           <div className="mx-auto w-24 h-24 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
             <Image src="/logo.png" alt="Logo" width={60} height={60} className="rounded-xl" />
           </div>
-          <h1 className="text-3xl font-bold text-slate-800 mb-2">Fundación de Útiles Escolares</h1>
+          <h1 className="text-3xl font-bold text-slate-800 mb-2">TODOS SOMOS UTILES</h1>
           <p className="text-slate-600">Sistema de gestión para la distribución de útiles escolares</p>
         </div>
 

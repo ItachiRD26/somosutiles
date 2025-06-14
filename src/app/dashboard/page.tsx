@@ -97,7 +97,7 @@ useEffect(() => {
           </CardHeader>
           <CardContent>
             <div className="text-3xl font-bold text-blue-800">{total}</div>
-            <p className="text-xs text-blue-600 mt-1">Niños en el sistema</p>
+            <p className="text-xs text-blue-600 mt-1">niños en el sistema</p>
           </CardContent>
         </Card>
 

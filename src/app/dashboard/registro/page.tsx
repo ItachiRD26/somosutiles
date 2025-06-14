@@ -45,7 +45,7 @@ export default function RegistroPage() {
         await guardarRegistroOffline(child)
       }
 
-      setMensaje("Niño registrado exitosamente.")
+      setMensaje("niño registrado exitosamente.")
       setTipoMensaje("success")
       setChild({
         nombre: "",
@@ -73,15 +73,15 @@ export default function RegistroPage() {
   return (
     <div className="max-w-2xl mx-auto space-y-6">
       <div className="space-y-2">
-        <h1 className="text-3xl font-bold text-slate-800">Registrar Niño</h1>
-        <p className="text-slate-600">Ingresa la información del nuevo beneficiario</p>
+        <h1 className="text-3xl font-bold text-slate-800">Registrar niño</h1>
+        <p className="text-slate-600">Ingresa la información del nuevo niño</p>
       </div>
 
       <Card className="border-0 shadow-xl bg-white/80 backdrop-blur-sm">
         <CardHeader>
           <div className="flex items-center space-x-2">
             <UserPlus className="h-6 w-6 text-blue-600" />
-            <CardTitle className="text-xl text-slate-800">Información del Beneficiario</CardTitle>
+            <CardTitle className="text-xl text-slate-800">Información del niño</CardTitle>
           </div>
         </CardHeader>
         <CardContent>
@@ -213,7 +213,7 @@ export default function RegistroPage() {
               ) : (
                 <>
                   <UserPlus className="mr-2 h-4 w-4" />
-                  Registrar Niño
+                  Registrar niño
                 </>
               )}
             </Button>
